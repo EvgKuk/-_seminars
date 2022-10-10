@@ -26,7 +26,7 @@ void fillRandom(double[] array)
 
         for (int i = 0; i < array.Length; i++)
         {
-            array[i] = Convert.ToDouble(random.Next(size)) / 100; 
+            array[i] = Convert.ToDouble(random.Next(size)) / del; 
             Console.Write($"{array[i]} / ");
             
         }
